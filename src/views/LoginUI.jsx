@@ -22,17 +22,17 @@ function LoginUI() {
     <>
       <AppBar>
         <Toolbar>
-          <AudiotrackIcon sx={{ color: "#f88805", fontSize: "50px" }} />
+          <AudiotrackIcon sx={{ color: "#049156", fontSize: "50px" }} />
           <Typography sx={{ ml: "10px", flexGrow: 1, textDecoration: "none" }}>
             Tanatorn Site By DTI-SAU
           </Typography>
-          <Typography sx={{ mr: "10px" }} component={Link} to="/login">
+          <Typography sx={{mr: '10px', textDecoration: 'none', color: 'white'}} component={Link} to="/login">
             Login
           </Typography>
-          <Typography sx={{ mr: "10px" }} component={Link} to="/contact">
+          <Typography sx={{mr: '10px', textDecoration: 'none', color: 'white'}} component={Link} to="/contact">
             Contact
           </Typography>
-          <Typography component={Link} to="/aboutlogin">
+          <Typography sx={{mr: '10px', textDecoration: 'none', color: 'white'}} component={Link} to="/aboutlogin" >
             About
           </Typography>
         </Toolbar>
