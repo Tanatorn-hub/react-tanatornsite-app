@@ -45,6 +45,7 @@ function LoginUI() {
           mt: "100px",
           boxShadow: "2",
           px: "40px",
+          pb: "40px"
         }}
       >
         <Avatar
