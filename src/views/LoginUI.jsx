@@ -20,9 +20,9 @@ import logo from "./../assets/logo.png";
 function LoginUI() {
   return (
     <>
-      <AppBar>
+      <AppBar sx={{ backgroundColor: '#049156' }} position="static">
         <Toolbar>
-          <AudiotrackIcon sx={{ color: "#049156", fontSize: "50px" }} />
+          <AudiotrackIcon sx={{ color: "#f88805", fontSize: "50px" }} />
           <Typography sx={{ ml: "10px", flexGrow: 1, textDecoration: "none" }}>
             Tanatorn Site By DTI-SAU
           </Typography>
